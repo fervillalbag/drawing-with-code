@@ -61,7 +61,10 @@ export default function Home() {
             <div className="w-[30px] h-[150px] bg-custom-blue absolute bottom-0 right-0 -z-10 rounded-tl-md"></div>
           </div>
         </div>
-        <div className="border-2 w-full h-full"></div>
+
+        <div className="w-full h-full">
+          <div className="w-[180px] h-[88px] border-r-4 border-b-4 border-custom-blue bg-red-200"></div>
+        </div>
         <div className="border-2 w-full h-full"></div>
       </div>
     </main>
