@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
     <main className="w-[900px] grid place-items-center md:w-screen h-screen">
@@ -99,11 +97,34 @@ export default function Home() {
               </div>
 
               {/* 2da pintura relleno */}
-              <div className="absolute top-0 left-0 z-20">
+              <div>
                 <div className="top-[68px] absolute left-[45px] w-7 h-4 bg-custom-pink"></div>
                 <div className="top-[60px] absolute left-[48px] w-4 h-2 bg-custom-pink"></div>
                 <div className="top-[60px] absolute left-[56px] w-5 h-9 rotate-[136deg] bg-custom-pink"></div>
                 <div className="top-[52px] absolute left-[52px] w-2 rotate-[46deg] h-3 bg-custom-pink"></div>
+              </div>
+
+              {/* 3ra pintura relleno */}
+              <div>
+                <div className="top-[46px] absolute left-[92px] w-4 h-6 bg-custom-pink"></div>
+                <div className="top-[54px] absolute left-[92px] w-1 h-7 bg-custom-pink"></div>
+                <div className="top-[46px] absolute left-[98px] w-3.5 h-5 bg-custom-pink"></div>
+                <div className="top-[48px] absolute left-[104px] w-3 h-3.5 bg-custom-pink"></div>
+                <div className="top-[50px] absolute left-[110px] w-2.5 h-2 bg-custom-pink"></div>
+                <div className="top-[62px] absolute left-[94px] rotate-[50deg] w-2 h-4 bg-custom-pink"></div>
+                <div className="top-[36px] absolute left-[96px] rotate-[100deg] w-2 h-5 bg-custom-pink"></div>
+              </div>
+
+              {/* 4ta pintura relleno */}
+              <div>
+                <div className="w-9 h-9 bg-custom-pink absolute right-[10px] top-[48px]"></div>
+                <div className="w-8 h-9 bg-custom-pink rotate-[134deg] absolute right-[18px] top-[38px]"></div>
+                <div className="w-5 h-5 bg-custom-pink rotate-[164deg] absolute right-[30px] top-[55px]"></div>
+                <div className="w-3 h-6 bg-custom-pink rotate-[134deg] absolute right-[18px] top-[25px]"></div>
+                <div className="w-3 h-4 bg-custom-pink absolute right-[2px] top-[68px]"></div>
+                <div className="w-3 h-4 bg-custom-pink absolute right-[3px] top-[58px]"></div>
+                <div className="w-3 h-4 bg-custom-pink absolute right-[6px] top-[50px]"></div>
+                <div className="w-3 h-4 bg-custom-pink absolute right-[10px] top-[43px]"></div>
               </div>
             </div>
           </div>
