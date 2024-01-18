@@ -63,9 +63,52 @@ export default function Home() {
         </div>
 
         <div className="w-full h-full">
-          <div className="w-[180px] h-[88px] border-r-4 border-b-4 border-custom-blue bg-red-200"></div>
+          <div className="flex">
+            <div className="w-[180px] h-[88px] border-r-4 border-b-4 border-custom-blue">
+              <div className="flex">
+                <div className="w-[84px] h-[42px] border-b-4 border-r-4 border-custom-blue bg-white"></div>
+                <div className="h-[42px] flex-1 bg-custom-dark-pink border-b-4 border-custom-blue"></div>
+              </div>
+              <div className="flex">
+                <div className="w-12 bg-custom-light-blue border-r-4 border-custom-blue h-[42px]"></div>
+                <div className="h-[42px] flex-1 bg-custom-pink"></div>
+              </div>
+            </div>
+
+            <div className="w-[184px] z-20 h-[88px] border-b-4 border-r-4 overflow-hidden border-custom-blue bg-white relative">
+              <div className="w-[184px] relative z-30 -mt-[2px] -ml-[2px] border-4 overflow-hidden border-custom-blue h-[176px] bg-transparent rounded-full"></div>
+              <div className="w-[92px] z-30 -mt-[2px] -ml-[2px] border-4 overflow-hidden border-custom-blue h-[88px] bg-transparent rounded-full absolute -bottom-1/2 left-1/2 -translate-x-1/2"></div>
+
+              <div className="w-1 z-30 bg-custom-blue h-full absolute bottom-0 left-1/2 -translate-x-1/2"></div>
+              <div className="w-1 z-30 rotate-[136deg] bg-custom-blue h-[90px] absolute -bottom-4 left-[58px]"></div>
+              <div className="w-1 z-30 rotate-[-136deg] bg-custom-blue h-[90px] absolute -bottom-4 right-[58px]"></div>
+
+              {/* 1era pintura relleno */}
+              <div>
+                <div className="w-3 h-3 bg-custom-pink absolute top-[17px] left-[32px] rotate-[50deg]"></div>
+                <div className="w-3 h-3 bg-custom-pink absolute top-[9px] left-[40px] rotate-[56deg]"></div>
+                <div className="w-3 h-3 bg-custom-pink absolute top-[6px] left-[49px] rotate-[66deg]"></div>
+                <div className="w-3 h-3 bg-custom-pink absolute top-[4px] left-[59px] rotate-[75deg]"></div>
+                <div className="w-3 h-3 bg-custom-pink absolute top-[2px] left-[69px] rotate-[77deg]"></div>
+                <div className="w-3 h-3 bg-custom-pink absolute top-[0px] left-[74px] rotate-[90deg]"></div>
+                <div className="w-5 h-5 bg-custom-pink absolute -top-[4px] left-[70px] rotate-[90deg]"></div>
+                <div className="w-6 h-7 bg-custom-pink absolute top-[14px] left-[41px] rotate-[136deg]"></div>
+                <div className="w-6 h-7 bg-custom-pink absolute top-[12px] left-[60px] rotate-[166deg]"></div>
+                <div className="w-3 h-10 bg-custom-pink absolute top-[0] left-[76px] rotate-[0]"></div>
+                <div className="w-5 h-5 bg-custom-pink absolute top-[28px] left-[49px] rotate-[50deg]"></div>
+              </div>
+
+              {/* 2da pintura relleno */}
+              <div className="absolute top-0 left-0 z-20">
+                <div className="top-[68px] absolute left-[45px] w-7 h-4 bg-custom-pink"></div>
+                <div className="top-[60px] absolute left-[48px] w-4 h-2 bg-custom-pink"></div>
+                <div className="top-[60px] absolute left-[56px] w-5 h-9 rotate-[136deg] bg-custom-pink"></div>
+                <div className="top-[52px] absolute left-[52px] w-2 rotate-[46deg] h-3 bg-custom-pink"></div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="border-2 w-full h-full"></div>
+        <div className="border-2 w-full h-full">hello</div>
       </div>
     </main>
   );
