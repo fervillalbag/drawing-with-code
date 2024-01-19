@@ -159,6 +159,30 @@ export default function Home() {
               </div>
               <div className="w-full absolute z-30 bg-custom-dark-pink top-0 left-0 h-[68px]"></div>
             </div>
+
+            <div className="h-[calc(222px-88px)] relative w-[206px]">
+              <div className="w-1 h-32 bg-custom-blue absolute left-9 -top-24"></div>
+
+              <div className="flex items-end absolute bottom-0 left-0 overflow-hidden">
+                <div className="relative h-[calc(222px-84px)] border-b-4 border-custom-blue border-t-4 w-16 bg-custom-dark-pink">
+                  <div className="absolute top-0 left-0 w-full h-[36px] bg-custom-blue"></div>
+                  <div className="w-16 h-16 bg-custom-blue absolute left-0 bottom-10"></div>
+                  <div className="w-8 h-16 bg-custom-blue absolute left-0 bottom-5"></div>
+                  <div className="w-24 bg-custom-blue h-7 absolute left-10 bottom-[66px]">
+                    <div className="absolute top-0 left-14 z-10 bg-custom-blue w-2 h-2"></div>
+                  </div>
+                </div>
+                <div className="overflow-hidden h-[98px] border-b-4 border-custom-blue w-[32px] bg-custom-dark-pink"></div>
+                <div className="overflow-hidden relative h-[176px] border-t-4 border-r-4 border-custom-blue border-b-4 w-[106px] bg-custom-dark-pink">
+                  <div className="rounded-sm w-[30px] h-[30px] bg-custom-blue absolute bottom-6 right-6"></div>
+
+                  <div className="absolute top-0 left-0 w-12 h-[74px] bg-custom-blue">
+                    <div className="w-2 h-2 bg-custom-blue absolute -bottom-[1px] z-10 right-[0]"></div>
+                  </div>
+                </div>
+                <div className="w-[340px] rotate-[146.1deg] bg-custom-blue -left-[174px] h-6 absolute"></div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="w-full h-full"></div>
