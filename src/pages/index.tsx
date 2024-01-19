@@ -60,7 +60,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full h-full">
+        <div className="w-full h-[222px]">
           <div className="flex">
             <div className="w-[180px] h-[88px] border-r-4 border-b-4 border-custom-blue">
               <div className="flex">
@@ -128,8 +128,40 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <div className="flex">
+            <div className="w-[134px] h-[calc(222px-88px)] border-r-4 bg-custom-blue p-1 border-custom-blue border-b-4">
+              <div className="relative h-full w-full grid place-items-center rounded-full bg-white">
+                <div className="h-3/5 w-3/5 grid place-items-center border-4 border-custom-blue rounded-full bg-custom-dark-pink">
+                  <div className="h-1/2 w-1/2 rounded-full bg-custom-blue"></div>
+                </div>
+                <div className="w-1 h-7 left-1/2 -translate-x-1/2 absolute bottom-0 bg-custom-blue "></div>
+              </div>
+            </div>
+            <div className="h-[calc(222px-88px)] flex flex-col w-[46px] border-b-4 border-r-4 border-custom-blue">
+              <div className="relative border-b-4 grid place-items-center border-custom-blue flex-1">
+                <div className="h-[30px] w-[30px] bg-custom-light-blue rounded-full border-4 border-custom-blue"></div>
+                <div className="w-1 h-5 bg-custom-blue absolute left-1/2 -translate-x-1/2 bottom-0"></div>
+              </div>
+              <div className="flex-1 flex relative">
+                <div className="flex-1 bg-custom-pink"></div>
+                <div className="flex-1 bg-custom-dark-pink"></div>
+
+                <div className="w-1 absolute h-full left-1/2 -translate-x-1/2 bg-custom-blue bottom-0"></div>
+              </div>
+            </div>
+            <div className="w-[184px] h-[calc(222px-88px)] border-r-4 bg-custom-dark-pink p-1 border-custom-blue relative border-b-4">
+              <div className="w-1 z-40 h-[72px] bg-custom-blue absolute top-0 left-1/2 -translate-x-1/2"></div>
+              <div className="w-[192px] z-40 h-1 bg-custom-blue absolute top-[29px] -left-3"></div>
+
+              <div className="z-20 w-[120px] h-[120px] bg-custom-blue rounded-full -bottom-1 left-1/2 -translate-x-1/2 absolute">
+                <div className="w-[112px] h-2 bg-white absolute bottom-[54px] rounded-[1px] left-1"></div>
+              </div>
+              <div className="w-full absolute z-30 bg-custom-dark-pink top-0 left-0 h-[68px]"></div>
+            </div>
+          </div>
         </div>
-        <div className="border-2 w-full h-full">hello</div>
+        <div className="w-full h-full"></div>
       </div>
     </main>
   );
