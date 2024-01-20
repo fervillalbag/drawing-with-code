@@ -129,7 +129,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex">
+          <div className="flex relative">
             <div className="w-[134px] h-[calc(222px-88px)] border-r-4 bg-custom-blue p-1 border-custom-blue border-b-4">
               <div className="relative h-full w-full grid place-items-center rounded-full bg-white">
                 <div className="h-3/5 w-3/5 grid place-items-center border-4 border-custom-blue rounded-full bg-custom-dark-pink">
@@ -182,6 +182,42 @@ export default function Home() {
                 </div>
                 <div className="w-[340px] rotate-[146.1deg] bg-custom-blue -left-[174px] h-6 absolute"></div>
               </div>
+            </div>
+
+            <div className="h-[155px] w-[430px] absolute -top-[88px] border-red-500 -z-10 bg-custom-pink right-0 overflow-hidden">
+              <div className="w-[226px] h-10 bg-custom-blue z-50 absolute bottom-0 right-0"></div>
+
+              <div className="w-[120px] h-[120px] bg-white border-4 border-custom-blue absolute -top-[5px] z-20 left-[142px] rounded-full"></div>
+              <div className="w-[120px] h-[120px] bg-white border-4 border-custom-blue absolute z-30 -top-[26px] left-[198px] rounded-full"></div>
+              <div className="w-1 h-[360px] bg-custom-blue absolute -bottom-16 rotate-[63deg] left-[356px] z-50"></div>
+
+              {/* Relleno */}
+              <div className="w-3 h-3 bg-red-500 right-[204px] rotate-[63deg] bottom-[34px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[193px] rotate-[63deg] bottom-[38px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[184px] rotate-[63deg] bottom-[42px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[174px] rotate-[63deg] bottom-[48px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[164px] rotate-[63deg] bottom-[52px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[154px] rotate-[63deg] bottom-[58px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[144px] rotate-[63deg] bottom-[62px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[134px] rotate-[63deg] bottom-[68px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[124px] rotate-[63deg] bottom-[72px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[114px] rotate-[63deg] bottom-[78px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[104px] rotate-[63deg] bottom-[82px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[94px] rotate-[63deg] bottom-[88px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[84px] rotate-[63deg] bottom-[92px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[74px] rotate-[63deg] bottom-[98px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[64px] rotate-[63deg] bottom-[103px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[54px] rotate-[63deg] bottom-[108px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[44px] rotate-[63deg] bottom-[113px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[34px] rotate-[63deg] bottom-[118px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[24px] rotate-[63deg] bottom-[123px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[14px] rotate-[63deg] bottom-[128px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[4px] rotate-[63deg] bottom-[133px] absolute z-[45]"></div>
+              <div className="w-3 h-3 bg-red-500 right-[0px] rotate-[63deg] bottom-[135px] absolute z-[45]"></div>
+              <div className="w-1 h-8 bg-red-500 right-[0px] rotate-[0] bottom-[120px] absolute z-[45]"></div>
+
+              <div className="w-[238px] h-[48px] bg-white absolute right-0 top-0 z-40"></div>
+              <div className="w-[226px] absolute bg-custom-pink z-20 bottom-[40px] right-0 h-16"></div>
             </div>
           </div>
         </div>
