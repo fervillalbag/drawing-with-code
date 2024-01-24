@@ -232,7 +232,19 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full h-full"></div>
+
+        <div className="w-full h-full">
+          <div className="relative w-[134px] h-full bg-custom-dark-pink border-r-4 border-custom-blue">
+            <div className="w-1 h-full z-10 bg-custom-blue absolute top-0 left-1/2 -translate-x-1/2"></div>
+
+            <div className="absolute bg-custom-light-blue left-0 bottom-0 w-[67px] h-2/3"></div>
+            <div className="absolute bg-custom-dark-pink right-0 top-0 w-[67px] h-1/2 border-b-4 border-custom-blue"></div>
+            <div className="absolute bg-custom-pink right-0 bottom-0 w-[67px] h-1/2"></div>
+            <div className="absolute border-4 border-custom-blue bg-custom-light-blue left-[3px] top-8 w-16 h-16 rounded-full"></div>
+            <div className="absolute border-t-4 border-custom-blue bg-custom-light-blue left-0 top-8 w-8 h-16"></div>
+            <div className="absolute bg-custom-light-blue left-0 top-16 w-[63px] h-16"></div>
+          </div>
+        </div>
       </div>
     </main>
   );
