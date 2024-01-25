@@ -233,7 +233,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full h-full">
+        <div className="w-full h-full flex">
           <div className="relative w-[134px] h-full bg-custom-dark-pink border-r-4 border-custom-blue">
             <div className="w-1 h-full z-10 bg-custom-blue absolute top-0 left-1/2 -translate-x-1/2"></div>
 
@@ -243,6 +243,14 @@ export default function Home() {
             <div className="absolute border-4 border-custom-blue bg-custom-light-blue left-[3px] top-8 w-16 h-16 rounded-full"></div>
             <div className="absolute border-t-4 border-custom-blue bg-custom-light-blue left-0 top-8 w-8 h-16"></div>
             <div className="absolute bg-custom-light-blue left-0 top-16 w-[63px] h-16"></div>
+          </div>
+
+          <div className="bg-custom-pink w-[230px] relative overflow-hidden flex flex-col border-r-4 border-custom-blue h-full">
+            <div className="border-b-4 border-custom-blue w-full flex-1">
+              <div className="h-40 w-1 left-[56px] bottom-[66px] bg-custom-blue absolute rotate-[50deg]"></div>
+              <div className="h-44 w-1 right-[58px] bottom-[60px] bg-custom-blue absolute -rotate-[50deg]"></div>
+            </div>
+            <div className="w-full flex-1 bg-custom-dark-pink"></div>
           </div>
         </div>
       </div>
