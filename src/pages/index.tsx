@@ -239,7 +239,9 @@ export default function Home() {
 
             <div className="absolute bg-custom-light-blue left-0 bottom-0 w-[67px] h-2/3"></div>
             <div className="absolute bg-custom-dark-pink right-0 top-0 w-[67px] h-1/2 border-b-4 border-custom-blue"></div>
-            <div className="absolute bg-custom-pink right-0 bottom-0 w-[67px] h-1/2"></div>
+            <div className="absolute overflow-hidden bg-custom-pink right-0 bottom-0 w-[67px] h-1/2">
+              <div className="w-[136px] rounded-full h-[136px] absolute -bottom-[75px] left-0 bg-custom-blue"></div>
+            </div>
             <div className="absolute border-4 border-custom-blue bg-custom-light-blue left-[3px] top-8 w-16 h-16 rounded-full"></div>
             <div className="absolute border-t-4 border-custom-blue bg-custom-light-blue left-0 top-8 w-8 h-16"></div>
             <div className="absolute bg-custom-light-blue left-0 top-16 w-[63px] h-16"></div>
@@ -250,7 +252,31 @@ export default function Home() {
               <div className="h-40 w-1 left-[56px] bottom-[66px] bg-custom-blue absolute rotate-[50deg]"></div>
               <div className="h-44 w-1 right-[58px] bottom-[60px] bg-custom-blue absolute -rotate-[50deg]"></div>
             </div>
-            <div className="w-full flex-1 bg-custom-dark-pink"></div>
+            <div className="w-full flex-1 overflow-hidden bg-custom-dark-pink relative">
+              <div className="w-[75px] h-[75px] rounded-full bg-custom-pink border-4 border-custom-blue -right-1 absolute top-1/2 -translate-y-1/2">
+                <div className="w-7 h-7 rounded-full bg-custom-light-blue border-4 border-custom-blue left-1/2 -translate-x-1/2 absolute top-1/2 -translate-y-1/2"></div>
+              </div>
+
+              <div className="h-1 w-[330px] z-20 absolute -left-[138px] top-[32.5px] bg-custom-blue"></div>
+              <div className="w-32 h-[165px] bg-custom-blue -bottom-[2px] -left-2 absolute rounded-full"></div>
+              <div className="w-10 h-10 bg-custom-blue bottom-0 left-0 absolute"></div>
+              <div className="w-32 h-[33px] absolute top-0 left-0 bg-custom-dark-pink"></div>
+            </div>
+          </div>
+
+          <div className="relative w-[202px] border-r-4 border-r-custom-blue h-full bg-custom-light-blue">
+            <div className="w-full border-b-4 border-custom-blue absolute h-10 bg-custom-pink top-0 left-0" />
+            <div className="h-1 w-[113px] right-0 bg-custom-blue top-[113px] absolute z-50"></div>
+
+            <div className="absolute overflow-hidden border-r-4 border-r-custom-blue w-[148px] top-10 h-auto bg-white bottom-0 left-0">
+              <div className="w-[154px] border-4 border-custom-blue h-[154px] bg-custom-dark-pink rounded-full absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2">
+                <div className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 left-1/2 border-4 border-custom-blue w-[114px] h-[114px] rounded-full bg-custom-pink">
+                  <div className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 left-1/2 border-4 border-custom-blue w-[74px] h-[74px] rounded-full bg-custom-light-blue">
+                    <div className="absolute top-1/2 -translate-x-1/2 -translate-y-1/2 left-1/2 border-4 border-custom-blue w-[34px] h-[34px] rounded-full bg-white"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
