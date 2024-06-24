@@ -247,7 +247,28 @@ export default function Home() {
             <div className="absolute bg-custom-light-blue left-0 top-16 w-[63px] h-16"></div>
           </div>
 
-          <div className="bg-custom-pink w-[230px] relative overflow-hidden flex flex-col border-r-4 border-custom-blue h-full">
+          <div className="bg-custom-light-blue w-[230px] relative overflow-hidden flex flex-col border-r-4 border-custom-blue h-full">
+            <div className="w-12 h-12 bg-white absolute top-0 left-0" />
+            <div className="w-8 h-8 bg-white absolute top-0 left-10" />
+            <div className="w-6 h-6 bg-white absolute top-0 left-14" />
+            <div className="w-3.5 h-3.5 bg-white absolute top-0 left-20" />
+            <div className="w-6 h-2 bg-white absolute top-0 left-20" />
+            <div className="w-3 h-1 bg-white absolute top-0 left-24" />
+            <div className="w-3 h-3 bg-white absolute top-0 left-[86px]" />
+            <div className="w-3 h-3 bg-white absolute top-[8px] rotate-[51deg] left-[78px]" />
+            <div className="w-3 h-3 bg-white absolute top-[14px] rotate-[51deg] left-[72px]" />
+            <div className="w-5 h-24 bg-white absolute -top-[10px] rotate-[51deg] left-[38px]" />
+            <div className="w-3 h-20 z-20 bg-white absolute top-0 left-0" />
+            <div className="w-5 h-5 z-20 bg-white absolute top-10 left-0" />
+            <div className="w-4 h-5 z-20 bg-white rotate-[50deg] absolute top-[63px] left-0" />
+            <div className="w-3 h-3 z-20 bg-white rotate-[50deg] absolute top-[75.5px] -left-[5px]" />
+
+            <div className="w-5 h-36 bg-custom-pink -top-8 -rotate-[51deg] absolute right-9" />
+            <div className="w-10 h-14 bg-custom-pink right-0 absolute top-0" />
+            <div className="w-[75px] h-8 bg-custom-pink right-0 absolute top-0" />
+            <div className="w-4 h-4 bg-custom-pink right-16 absolute top-0" />
+            <div className="w-3 h-3 bg-custom-pink right-0 absolute top-14" />
+
             <div className="border-b-4 border-custom-blue w-full flex-1">
               <div className="h-40 w-1 left-[56px] bottom-[66px] bg-custom-blue absolute rotate-[50deg]"></div>
               <div className="h-44 w-1 right-[58px] bottom-[60px] bg-custom-blue absolute -rotate-[50deg]"></div>
